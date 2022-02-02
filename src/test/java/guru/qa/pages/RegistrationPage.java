@@ -27,7 +27,7 @@ public class RegistrationPage {
     public CalendarComponent calendar = new CalendarComponent();
 
     public RegistrationPage openPage() {
-        open("https://demoqa.com/automation-practice-form");
+        open("/automation-practice-form");
         $(".practice-form-wrapper").shouldHave(text("Student Registration Form"));
         return this;
     }
@@ -67,8 +67,8 @@ public class RegistrationPage {
         return this;
     }
 
-    public RegistrationPage uploadPicture(String value) {
-        uploadPicturePaste.uploadFromClasspath(value);
+    public RegistrationPage uploadPicture(String path) {
+        uploadPicturePaste.uploadFromClasspath(path);
         return this;
     }
 
