@@ -3,7 +3,7 @@ package guru.qa.tests;
 import guru.qa.pages.RegistrationPage;
 import org.junit.jupiter.api.Test;
 
-public class DemoQATestWithDsl extends TestBase {
+public class DemoQaTestWithDsl extends TestBase {
 
     RegistrationPage registrationPage = new RegistrationPage();
 
@@ -36,7 +36,7 @@ public class DemoQATestWithDsl extends TestBase {
                 .typeCurrentAddress(currentAddress)
                 .typeState(state)
                 .typeCity(city)
-        .calendar.setDate(11, "May", "2000");
+                .calendar.setDate(11, "May", "2000");
         registrationPage.clickSubmit()
                 // проверки
                 .checkResultsValue(firstName)
