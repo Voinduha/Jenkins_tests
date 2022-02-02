@@ -32,7 +32,7 @@ public class DemoQaTestWithDsl extends TestBase {
                 .typeUserNumber(userNumber)
                 .typeSubject(subject)
                 .typeHobbySport(hobbySport)
-                .uploadPicture(uploadPicture)
+                //.uploadPicture(uploadPicture)
                 .typeCurrentAddress(currentAddress)
                 .typeState(state)
                 .typeCity(city)
@@ -47,7 +47,7 @@ public class DemoQaTestWithDsl extends TestBase {
                 .checkResultsValue("11 May,2000")
                 .checkResultsValue(subject)
                 .checkResultsValue(hobbySport)
-                .checkResultsValue(uploadPicture)
+                //.checkResultsValue(uploadPicture)
                 .checkResultsValue(currentAddress)
                 .checkResultsValue(state)
                 .checkResultsValue(city);
