@@ -53,9 +53,3 @@ public class DemoQaTestWithDsl extends TestBase {
                 .checkResultsValue(city);
     }
 }
-
-
-
-
-
-
