@@ -14,7 +14,6 @@ public class SystemPropertiesTests {
     void someTest1() {
         String someValue = System.getProperty("someKey");
         System.out.println(someValue);
-
     }
 
     @Test
