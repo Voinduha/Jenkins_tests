@@ -1,6 +1,7 @@
 package guru.qa.tests;
 
 import guru.qa.pages.RegistrationPage;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
 public class DemoQaTestWithDsl extends TestBase {
@@ -8,6 +9,7 @@ public class DemoQaTestWithDsl extends TestBase {
     RegistrationPage registrationPage = new RegistrationPage();
 
     @Test
+    @Tag("properties")
     public void fillForm() {
 
         String
