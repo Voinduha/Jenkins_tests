@@ -9,7 +9,6 @@ public class DemoQaTestWithDsl extends TestBase {
     RegistrationPage registrationPage = new RegistrationPage();
 
     @Test
-    @Tag("properties")
     public void fillForm() {
 
         String
